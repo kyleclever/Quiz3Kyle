@@ -1,4 +1,4 @@
-	package base;
+package base;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -10,8 +10,8 @@ public class testcase {
 	@Test
 	public void test() {
 
-		assertTrue(test.getArea() == 24);
-		assertTrue(test.getPerimeter() == 24);
+		assertTrue(test.getArea() == 24.0);
+		assertTrue(test.getPerimeter() == 24.0);
 
 	}
 }
