@@ -59,6 +59,7 @@ public class Triangle extends GeometricObject {
 	 * A method named toString() that returns a string description for the
 	 * triangle.
 	 */
+	@Override
 	public String toString() {
 		return "The area of a triagngle with sides" + side1 + ", " + side2 + " and " + side3 + " is: " + getArea();
 	}
